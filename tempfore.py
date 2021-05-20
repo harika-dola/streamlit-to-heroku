@@ -11,7 +11,7 @@ st.sidebar.title("Temperature Forecasting")
 st.markdown("Streamlit App to analyse the temperature readings ☔️☀️")
 st.sidebar.markdown("Streamlit App to analyse the temperature readings ☔️☀️")
 
-DATA_URL = ("/Users/harika.dola/Desktop/New folder/IOT-temp.csv")
+DATA_URL = ("IOT-temp.csv")
 
 @st.cache(persist=True)
 def load_data():
