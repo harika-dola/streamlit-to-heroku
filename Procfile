@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run tempfore.py
+web: cd code/ && streamlit run tempfore.py --server.port $PORT
